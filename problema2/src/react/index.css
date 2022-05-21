@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ /*  acima é a estilização padrão do react */
+
+
+#botoes{
+  list-style-type: none;
+    margin: 3% 10%;
+    padding: 0;
+    width: 80%;
+    display: table;              
+    table-layout: fixed;         
+    border-collapse: separate;  
+    border-spacing: 35px 0px;   
+}
+#botoes li {display: table-cell;justify-content: center;border:2px black solid;}
+#botoes li p{color:rgb(0, 0, 0); text-align: center;}
+
+button{
+  width: 100%;
+  height: auto;
+}
+.produtos{
+  display:none;
+}
+.bancos{
+  display:none;
+}
