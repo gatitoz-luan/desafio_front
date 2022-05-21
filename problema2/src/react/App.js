@@ -7,12 +7,10 @@ function App() {
       <header className="App-header">
         <div><h5>Problema 2: 
 componente react que renderiza três caixas de seleção</h5></div>
-        
       </header>
       <body>
-      <Script>
-
-      </Script>
+        <Script>
+        </Script>
       </body>
     </div>
   );
